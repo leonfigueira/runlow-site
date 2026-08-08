@@ -1,5 +1,21 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-04T23:00:00Z",
-  "notices": []
+  "updated": "2026-08-08T04:50:00Z",
+  "notices": [
+    {
+      "id": "unknown-claude-meter-2026-08",
+      "severity": "info",
+      "title": "A new unnamed meter may appear for Claude accounts",
+      "body": "Anthropic has switched on a hidden usage bucket that some Claude accounts now report, so an unfamiliar meter at 0% may have appeared on your dashboard. It is not a bug, and your real meters are unaffected. We do not yet know what it is. A fix has already been submitted to Apple and is awaiting review, which can take some time. It hides unannounced meters until they show real usage, and adds a setting to reveal them early, so brand new models still appear between app updates.",
+      "platforms": [
+        "ios",
+        "macos"
+      ],
+      "appVersions": {
+        "max": "1.3"
+      },
+      "starts": "2026-08-08T04:00:00Z",
+      "dismissible": true
+    }
+  ]
 }
