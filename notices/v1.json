@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-13T18:45:00Z",
+  "updated": "2026-08-13T18:52:00Z",
   "notices": [
     {
       "id": "ios-focus-list-missing-meters-2026-08",
       "severity": "warning",
-      "title": "The latest update broke the Main focus list",
-      "body": "The update just released introduced a bug: switching a meter off under Focus > Also show on Lock Screen now also removes it from the Main focus list, so choices like Session (5 hr) can go missing. To be clear, this update is not the fix — the fix is a further update, already built and being submitted to Apple now. Sorry to anyone this caught out. Until it arrives you can still change your focus in Settings > Live Activity > Focus meter, which always lists every meter.",
+      "title": "Some meters missing from the Main focus list",
+      "body": "The update just released introduced a bug but is being fixed right now: switching a meter off under Focus > Also show on Lock Screen also removes it from the Main focus list, so choices like Session (5 hr) can go missing. Sorry to anyone this caught out. Until the fix arrives you can still change your focus in Settings > Live Activity > Focus meter, which always lists every meter.",
       "platforms": [
         "ios"
       ],
