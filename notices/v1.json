@@ -1,7 +1,23 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-08T04:50:00Z",
+  "updated": "2026-08-13T18:30:00Z",
   "notices": [
+    {
+      "id": "ios-focus-list-missing-meters-2026-08",
+      "severity": "warning",
+      "title": "Some meters missing from the Main focus list",
+      "body": "On iPhone and iPad, switching a meter off under Focus > Also show on Lock Screen also removed it from the Main focus list, so choices like Session (5 hr) could go missing. Apologies to anyone this caught out. In the meantime you can still change your focus from Settings > Live Activity > Focus meter, which always lists every meter. The fix is built and is being submitted to Apple right now, and will reach you as soon as review clears.",
+      "platforms": [
+        "ios"
+      ],
+      "appVersions": {
+        "min": "1.4",
+        "max": "1.5"
+      },
+      "starts": "2026-08-13T00:00:00Z",
+      "dismissible": true,
+      "pinned": true
+    },
     {
       "id": "unknown-claude-meter-2026-08",
       "severity": "info",
