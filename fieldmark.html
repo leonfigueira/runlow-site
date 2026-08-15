@@ -15,7 +15,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/apps.css">
-<style>:root{--accent:#5fd99b;--accent-deep:#3cb87d;--accent-ink:#04130b}</style>
+<style>:root{--accent:#5fd99b;--accent-deep:#3cb87d;--accent-ink:#04130b}
+.hero-wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(22px,4vw,52px);align-items:center}
+@media(max-width:900px){.hero-wrap{grid-template-columns:1fr}}
+.shot{width:100%;height:auto;display:block;border-radius:14px;box-shadow:0 18px 50px rgba(0,0,0,.38)}
+.shot-card{margin:0}
+.shot-card figcaption{margin-top:10px;font-size:.85rem;color:var(--muted)}
+.see-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(18px,3vw,32px);margin-top:28px}
+@media(max-width:820px){.see-grid{grid-template-columns:1fr}}</style>
 </head>
 <body>
 
@@ -45,12 +52,20 @@
     </section>
 
     <section class="hero" aria-label="Introduction">
-      <p class="eyebrow">Habitat &amp; heritage mapping · in testing</p>
-      <h1>Every designation.<br><em>One map.</em></h1>
-      <p class="sub">Fieldmark puts the UK's environmental designations on one fast, native map — <strong>SSSIs, ancient woodland, priority habitats, listed heritage and 90+ more layers</strong>, streamed live from official open data. Built for ecologists, land professionals and everyone who works outdoors.</p>
-      <div class="cta-row">
-        <span class="soon"><b>Coming to the App&nbsp;Store</b> · iPhone, iPad, Mac &amp; Apple&nbsp;Watch</span>
-        <span class="price-note">One purchase covers <b>every device you own</b></span>
+      <div class="hero-wrap">
+        <div>
+          <p class="eyebrow">Habitat &amp; heritage mapping · in testing</p>
+          <h1>Every designation.<br><em>One map.</em></h1>
+          <p class="sub">Fieldmark puts the UK's environmental designations on one fast, native map — <strong>SSSIs, ancient woodland, priority habitats, listed heritage and 90+ more layers</strong>, streamed live from official open data. Built for ecologists, land professionals and everyone who works outdoors.</p>
+          <div class="cta-row">
+            <span class="soon"><b>Coming to the App&nbsp;Store</b> · iPhone, iPad, Mac &amp; Apple&nbsp;Watch</span>
+            <span class="price-note">One purchase covers <b>every device you own</b></span>
+          </div>
+        </div>
+        <figure class="shot-card">
+          <img class="shot" src="assets/shot-detail-web.jpg" width="2056" height="1234"
+               alt="Fieldmark on the Mac — an Ancient Woodland record open in the side panel beside the map, with designation layers over satellite imagery">
+        </figure>
       </div>
     </section>
 
@@ -90,6 +105,23 @@
           <h3>Licensed properly</h3>
           <p>Built on the Open Government Licence with attribution where it belongs. Fieldmark is an independent app — not affiliated with Defra, Natural England or the MAGIC service.</p>
         </div>
+      </div>
+    </section>
+
+    <section id="screens" aria-label="Screenshots">
+      <p class="kicker">See it</p>
+      <h2>The map does the talking.</h2>
+      <div class="see-grid">
+        <figure class="shot-card">
+          <img class="shot" src="assets/shot-layers-web.jpg" loading="lazy" width="2056" height="1234"
+               alt="The Map layers panel — one-tap presets, search, and every designation layer with counts and toggles">
+          <figcaption><b>90+ layers, one panel.</b> Presets for desk studies and woodland work, search, and a switch for everything.</figcaption>
+        </figure>
+        <figure class="shot-card">
+          <img class="shot" src="assets/shot-offline-web.jpg" loading="lazy" width="2056" height="1234"
+               alt="Offline maps — download single layers or everything, with sizes shown per layer">
+          <figcaption><b>The whole country, offline.</b> Grab single layers or all of it — downloads draw automatically when the signal goes.</figcaption>
+        </figure>
       </div>
     </section>
 
