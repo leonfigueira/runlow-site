@@ -16,13 +16,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/apps.css">
 <style>:root{--accent:#5fd99b;--accent-deep:#3cb87d;--accent-ink:#04130b}
-.hero-wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(22px,4vw,52px);align-items:center}
+.hero-wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(24px,4vw,56px);align-items:center}
 @media(max-width:900px){.hero-wrap{grid-template-columns:1fr}}
-.shot{width:100%;height:auto;display:block;border-radius:14px;box-shadow:0 18px 50px rgba(0,0,0,.38)}
+.frame{width:100%;height:auto;display:block;border-radius:16px;border:1px solid rgba(255,255,255,.10);box-shadow:0 24px 70px rgba(0,0,0,.45)}
 .shot-card{margin:0}
 .shot-card figcaption{margin-top:10px;font-size:.85rem;color:var(--muted)}
-.see-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(18px,3vw,32px);margin-top:28px}
-@media(max-width:820px){.see-grid{grid-template-columns:1fr}}</style>
+.phone-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(14px,2.5vw,28px);margin-top:30px}
+@media(max-width:760px){.phone-row{grid-template-columns:1fr;max-width:340px;margin-left:auto;margin-right:auto}}
+.phone img{width:100%;height:auto;display:block;border-radius:clamp(22px,3.5vw,38px);border:1px solid rgba(255,255,255,.12);box-shadow:0 18px 50px rgba(0,0,0,.45)}
+.phone figcaption{margin-top:12px;font-size:.85rem;color:var(--muted);text-align:center}
+.panel-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(18px,3vw,32px);margin-top:30px;max-width:780px}
+@media(max-width:700px){.panel-row{grid-template-columns:1fr;max-width:380px}}</style>
 </head>
 <body>
 
@@ -63,8 +67,8 @@
           </div>
         </div>
         <figure class="shot-card">
-          <img class="shot" src="assets/shot-detail-web.jpg" width="2056" height="1234"
-               alt="Fieldmark on the Mac — an Ancient Woodland record open in the side panel beside the map, with designation layers over satellite imagery">
+          <img class="frame" src="assets/hero-mac.jpg" width="1812" height="2467"
+               alt="Fieldmark on the Mac in dark mode — an Ancient Woodland record open in the side panel over a satellite map of the New Forest">
         </figure>
       </div>
     </section>
@@ -108,19 +112,43 @@
       </div>
     </section>
 
-    <section id="screens" aria-label="Screenshots">
-      <p class="kicker">See it</p>
-      <h2>The map does the talking.</h2>
-      <div class="see-grid">
+    <section id="pocket" aria-label="Fieldmark on iPhone">
+      <p class="kicker">In the field</p>
+      <h2>Pocket-sized designations.</h2>
+      <p class="section-sub">The full app on your iPhone — one-handed controls by your thumb, offline layers when the signal drops, and the grid reference always one tap from your clipboard.</p>
+      <div class="phone-row">
+        <figure class="phone">
+          <img src="assets/iph-map.jpg" loading="lazy" width="1206" height="2622"
+               alt="Fieldmark on iPhone — satellite map of the New Forest with SSSI boundaries, grid reference chip and one-handed controls">
+          <figcaption><b>The map, one-handed.</b> Location, zoom and refresh sit by your thumb.</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets/iph-detail.jpg" loading="lazy" width="1206" height="2622"
+               alt="Fieldmark on iPhone — the official record for an Ancient Woodland, with sharing and copy actions">
+          <figcaption><b>Tap anything.</b> The official record, with copy and share built in.</figcaption>
+        </figure>
+        <figure class="phone">
+          <img src="assets/iph-layers.jpg" loading="lazy" width="1206" height="2622"
+               alt="Fieldmark on iPhone — the Map layers sheet with one-tap presets like Desk study and Woodland">
+          <figcaption><b>One-tap presets.</b> Desk study, woodland — or save your own.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="screens" aria-label="Fieldmark on the Mac">
+      <p class="kicker">On the desk</p>
+      <h2>The desk-study machine.</h2>
+      <p class="section-sub">Apple-Maps-style floating panels on the Mac: layers, legend, offline downloads and full records beside the map, resizable and draggable to either edge.</p>
+      <div class="panel-row">
         <figure class="shot-card">
-          <img class="shot" src="assets/shot-layers-web.jpg" loading="lazy" width="2056" height="1234"
-               alt="The Map layers panel — one-tap presets, search, and every designation layer with counts and toggles">
-          <figcaption><b>90+ layers, one panel.</b> Presets for desk studies and woodland work, search, and a switch for everything.</figcaption>
+          <img class="frame" src="assets/mac-layers.jpg" loading="lazy" width="820" height="2448"
+               alt="The Map layers panel on the Mac — presets, search, and designation layers with live feature counts and toggles">
+          <figcaption><b>90+ layers, one panel</b> — with live feature counts.</figcaption>
         </figure>
         <figure class="shot-card">
-          <img class="shot" src="assets/shot-offline-web.jpg" loading="lazy" width="2056" height="1234"
-               alt="Offline maps — download single layers or everything, with sizes shown per layer">
-          <figcaption><b>The whole country, offline.</b> Grab single layers or all of it — downloads draw automatically when the signal goes.</figcaption>
+          <img class="frame" src="assets/mac-offline.jpg" loading="lazy" width="820" height="2448"
+               alt="Offline maps on the Mac — download single layers with sizes shown, or everything at once">
+          <figcaption><b>The whole country, offline</b> — per layer or all of it.</figcaption>
         </figure>
       </div>
     </section>
