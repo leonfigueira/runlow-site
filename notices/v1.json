@@ -1,7 +1,23 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-08-13T18:52:00Z",
+  "updated": "2026-08-22T03:50:00Z",
   "notices": [
+    {
+      "id": "openrouter-meters-coming-2026-08",
+      "severity": "info",
+      "title": "More from OpenRouter in the next update",
+      "body": "OpenRouter is about to get proper meters: spend today, this week and this month, your key's own total, and a heads-up before a key expires — not just a credit balance. Claude credits get a fix as well, so a spend limit you haven't set no longer shows as a permanent 0%. Coming shortly.",
+      "platforms": [
+        "ios",
+        "macos"
+      ],
+      "appVersions": {
+        "max": "1.6"
+      },
+      "starts": "2026-08-22T03:00:00Z",
+      "ends": "2026-09-05T00:00:00Z",
+      "dismissible": true
+    },
     {
       "id": "ios-focus-list-missing-meters-2026-08",
       "severity": "warning",
