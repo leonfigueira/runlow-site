@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-09-06T23:00:00Z",
+  "updated": "2026-09-06T22:45:00Z",
   "notices": [
     {
       "id": "update-1-8-preview-2026-09",
@@ -14,7 +14,7 @@
       "appVersions": {
         "max": "1.7.5"
       },
-      "starts": "2026-09-06T23:00:00Z",
+      "starts": "2026-09-06T21:00:00Z",
       "ends": "2026-09-21T00:00:00Z",
       "dismissible": true
     },
