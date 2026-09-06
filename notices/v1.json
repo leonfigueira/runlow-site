@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-09-06T23:10:00Z",
+  "updated": "2026-09-06T23:20:00Z",
   "notices": [
     {
       "id": "update-1-8-preview-2026-09",
       "severity": "info",
       "title": "New update on the way, and it's a good one",
-      "body": "Next update lands this week.\n\nFixed\n• Renamed meters keep your name on the Lock Screen\n• iCloud sync can't drop an account\n• Hiding a meter updates History instantly\n• Count-down shows \"100% left\", not a bug\n\nNew on the Mac\n• As many meters as you like in the menu bar, side by side or stacked, each with its own icon or name\n• A System Settings style layout (classic tabs still there)\n\nYour turn\nWant a feature, or found a bug? Now is the time: Settings, then Send feedback. Every message gets read.",
+      "body": "Next update lands this week.\n\nFixed\n• Renamed meters keep your name on the Lock Screen\n• iCloud sync can't drop an account\n• Hiding a meter updates History instantly\n• Count-down mode now shows \"100% left\"\n\nNew on the Mac\n• As many meters as you like in the menu bar, side by side or stacked, each with its own icon or name\n• A System Settings style layout (classic tabs still there)\n\nYour turn\nWant a feature, or found a bug? Now is the time: Settings, then Send feedback. Every message gets read.",
       "platforms": [
         "ios",
         "macos"
