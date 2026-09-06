@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-09-06T22:45:00Z",
+  "updated": "2026-09-06T23:10:00Z",
   "notices": [
     {
       "id": "update-1-8-preview-2026-09",
       "severity": "info",
       "title": "New update on the way, and it's a good one",
-      "body": "The next Runlow update should reach the App Store this week. Here's what's in it.\n\nFixed\n• Renamed meters keep your name on the Lock Screen, with no \"Codex (ChatGPT)\" sneaking in front\n• iCloud sync can no longer drop an account on one of your devices\n• Hiding a meter updates History straight away\n• A fresh meter in count-down mode now says \"100% left\" instead of looking broken\n\nNew on the Mac\n• Two or more meters in the menu bar at once, side by side or stacked in pairs\n• Give each one its own icon, or show names next to the numbers\n• A new System Settings style layout, with a switch back to the classic tabs if you prefer\n\nYour turn\nGot a feature you've been wishing for, or a bug that's been bugging you? Now is the perfect time to tell me: Settings, then Send feedback. Every message gets read, and this update was shaped by exactly that.",
+      "body": "Next update lands this week.\n\nFixed\n• Renamed meters keep your name on the Lock Screen\n• iCloud sync can't drop an account\n• Hiding a meter updates History instantly\n• Count-down shows \"100% left\", not a bug\n\nNew on the Mac\n• As many meters as you like in the menu bar, side by side or stacked, each with its own icon or name\n• A System Settings style layout (classic tabs still there)\n\nYour turn\nWant a feature, or found a bug? Now is the time: Settings, then Send feedback. Every message gets read.",
       "platforms": [
         "ios",
         "macos"
