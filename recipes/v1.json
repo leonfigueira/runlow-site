@@ -1,10 +1,43 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-09-07T10:00:00Z",
+  "updated": "2026-09-07T11:00:00Z",
+  "_readme": "Data-only hints for Runlow's parsers. paths: endpoint path on the provider's own host (host is pinned in the app). aliases: canonical key -> spellings the provider renamed it to. keys: slot -> extra candidate keys (Cursor). Bad entries are ignored; built-ins are the fallback.",
   "providers": {
+    "claude": {
+      "paths": {
+        "usage": "/api/organizations/{org}/usage"
+      },
+      "aliases": {}
+    },
+    "codex": {
+      "paths": {
+        "usage": "/backend-api/wham/usage"
+      },
+      "aliases": {}
+    },
+    "gemini": {
+      "paths": {
+        "quota": "/v1internal:retrieveUserQuota"
+      },
+      "aliases": {}
+    },
     "cursor": {
       "path": "/api/usage-summary",
-      "keys": {}
+      "keys": {},
+      "aliases": {}
+    },
+    "copilot": {
+      "paths": {
+        "user": "/copilot_internal/user"
+      },
+      "aliases": {}
+    },
+    "openrouter": {
+      "paths": {
+        "key": "/api/v1/key",
+        "credits": "/api/v1/credits"
+      },
+      "aliases": {}
     }
   }
 }
