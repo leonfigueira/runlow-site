@@ -1,22 +1,19 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-09-06T23:20:00Z",
+  "updated": "2026-09-09T23:00:00Z",
   "notices": [
     {
-      "id": "update-1-8-preview-2026-09",
+      "id": "185-taking-longer",
       "severity": "info",
-      "title": "New update on the way, and it's a good one",
-      "body": "Next update lands this week.\n\nFixed\n• Renamed meters keep your name on the Lock Screen\n• iCloud sync can't drop an account\n• Hiding a meter updates History instantly\n• Count-down mode now shows \"100% left\"\n\nNew on the Mac\n• As many meters as you like in the menu bar, side by side or stacked, each with its own icon or name\n• A System Settings style layout (classic tabs still there)\n\nYour turn\nWant a feature, or found a bug? Now is the time: Settings, then Send feedback. Every message gets read.",
-      "platforms": [
-        "ios",
-        "macos"
-      ],
+      "title": "The next update is close",
+      "body": "1.8.5 turned into a much bigger update than I planned, mostly because of what people emailed in. Thank you to everyone who wrote. Most of this update is made of your messages. Here is what is in it.\n\nWHAT IS COMING\n• Seven themes. Colours, bar shape, background and typeface in one tap, and they reach the Lock Screen, the Dynamic Island, the widgets and the watch.\n• An Apple Watch page on your phone, with a live preview of your wrist.\n• Both Dynamic Island numbers are yours to choose. Hold the Island for as many as six meters.\n• The Lock Screen card is yours to arrange: how many meters, a bar on each or none, where the refresh button sits, and what sits on the bottom line.\n• A Privacy page listing every address the app contacts, and why.\n\nWHAT IS FIXED\n• Codex sign-in. An invisible extra line in a pasted token stopped it being sent at all, and then the app told you the token was rejected.\n• The refresh button could come back with nothing and leave the card looking unchanged, so you could not tell. It says so now.\n• Disconnect clears your credentials on your other devices too. It warns you first now.\n• Widgets ignored a switch between light and dark.\n\nON iOS 27\nThe extra room in iOS 27 turns out to be a bigger widget size rather than a bigger Lock Screen card, so that is where it is going, and it is the next thing I am building. The card gained room anyway, from a different direction: hold the Dynamic Island and it now shows as many as six meters instead of three.\n\nKeep them coming. If you are about to report something, it is worth updating first.",
+      "starts": "2026-09-09T00:00:00Z",
+      "ends": "2026-09-30T00:00:00Z",
       "appVersions": {
-        "max": "1.7.5"
+        "max": "1.8.4"
       },
-      "starts": "2026-09-06T21:00:00Z",
-      "ends": "2026-09-21T00:00:00Z",
-      "dismissible": true
+      "dismissible": true,
+      "pinned": true
     },
     {
       "id": "openrouter-meters-coming-2026-08",
