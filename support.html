@@ -12,37 +12,32 @@
                @media(prefers-color-scheme:dark){body{background:#0e0e11;color:#e8e8ea}.muted{color:#9a9aa0}}
                </style>
                </head>
-               <body>
-               <h1>Runlow - Support</h1>
-               <p>Runlow shows how much of your Claude, Codex and Gemini usage limits you have left - on your
-               Lock Screen, in widgets, and (on Mac) in the menu bar.</p>
-               <p>Need help or found a bug? Email <a href="mailto:leonfigueira@gmail.com">leonfigueira@gmail.com</a>,
-               or use <strong>Settings -> Send feedback</strong> inside the app.</p>
+<body>
+<h1>Runlow - Support</h1>
+<p>Runlow shows how much of your AI usage you have left. It reads the limits for Claude, Codex (ChatGPT), Gemini CLI, Cursor, GitHub Copilot and OpenRouter and shows them as meters on your iPhone and iPad (dashboard, Lock Screen card, Dynamic Island and widgets), in your Mac's menu bar, on Apple Watch and on Apple Vision Pro.</p>
+<p>Need help or found a bug? Email <a href="mailto:leonfigueira@gmail.com">leonfigueira@gmail.com</a>, or use <strong>Settings -&gt; Send feedback</strong> inside the app. Every message gets read.</p>
 
-               <h2>Getting started</h2>
-               <ul>
-                 <li><strong>Claude:</strong> open Runlow, choose Claude, and sign in with your normal claude.ai login.</li>
-                   <li><strong>Codex / Gemini (iPhone):</strong> paste the access token from your <code>~/.codex</code> or
-                     <code>~/.gemini</code> file (the app shows you where to find it).</li>
-                       <li><strong>Codex / Gemini (Mac):</strong> click "Connect" and grant access to the <code>~/.codex</code>
-                         or <code>~/.gemini</code> folder.</li>
-                           <li><strong>Just looking?</strong> Turn on <em>Demo mode</em> to explore with sample data.</li>
-                           </ul>
+<h2>Getting started</h2>
+<ul>
+  <li><strong>Claude:</strong> paste your claude.ai session key. The app has a step-by-step guide showing exactly where to copy it from, and it checks the key before accepting it. Tip: sign in to claude.ai in a private window, copy the key, then close the window, so no open tab can sign it out later.</li>
+  <li><strong>Codex (ChatGPT), Gemini CLI, Cursor, GitHub Copilot, OpenRouter:</strong> paste the token or API key from your own machine or account. The app shows you where each one lives.</li>
+  <li><strong>On the Mac:</strong> Codex and Gemini can be read straight from their folders. Click Connect and grant access to <code>~/.codex</code> or <code>~/.gemini</code>.</li>
+  <li><strong>Just looking?</strong> Turn on <em>Demo mode</em> to explore with sample data.</li>
+  <li><strong>New here?</strong> The setup wizard walks you through the Lock Screen card one question at a time. It is in Settings whenever you want it again, and cancelling puts everything back.</li>
+</ul>
 
-                           <h2>Common questions</h2>
-                           <p><strong>My meters stopped loading.</strong> Your session may have expired - sign in again (Claude), or
-                           re-paste your token (Codex/Gemini). Providers occasionally change things; the app updates to keep up.</p>
-                           <p><strong>The Live Activity looks out of date.</strong> Open the app to refresh it. Fully-automatic
-                           background updates are coming in a later version.</p>
-                           <p><strong>Why can't I see the Gemini web-app limit?</strong> Google only exposes the Gemini CLI / Code
-                           Assist quota to apps; the gemini.google.com chat limit isn't readable outside the browser.</p>
-                           <p><strong>Where's the Mac app?</strong> It lives in the menu bar - look for the gauge icon at the top of
-                           your screen (it has no Dock icon).</p>
+<h2>Common questions</h2>
+<p><strong>My meters stopped loading.</strong> Your session probably ended. Signing out of claude.ai in the browser you copied the key from, or "log out of all sessions" in Claude's settings, ends the key too, and Anthropic expires them on their own after a while. Runlow shows a banner with a Reconnect button when that happens. Paste a fresh key and everything else stays as it was. For the other services, paste the token again.</p>
+<p><strong>The Lock Screen card looks out of date.</strong> Tap the refresh button on the card, or on a Home Screen widget. iOS decides when apps may run in the background, so the card refreshes when it can; the button asks for fresh numbers right now, and it will tell you if a refresh came back with nothing.</p>
+<p><strong>I pasted a token and it says it was rejected.</strong> Check for a stray space or line break at the end of what you pasted. From 1.8.5 the app strips those itself.</p>
+<p><strong>Do my settings follow me between devices?</strong> Yes, if you turn it on. Settings, then iCloud sync. Your sign-ins travel through your own iCloud Keychain; your colours, themes, meter names and Lock Screen layout travel through your own iCloud. Nothing goes through anyone else.</p>
+<p><strong>Why can't I see the Gemini web-app limit?</strong> Google only exposes the Gemini CLI / Code Assist quota to apps; the gemini.google.com chat limit isn't readable outside the browser.</p>
+<p><strong>Where's the Mac app?</strong> It lives in the menu bar. Look for the gauge icon at the top of your screen; it has no Dock icon. Click it for every meter, and right-click a meter to put it in the menu bar itself.</p>
+<p><strong>Will updating change my setup?</strong> No. Themes, the wizard and every other option only change things when you use them.</p>
 
-                           <h2>Privacy</h2>
-                           <p>Runlow collects no data. See the <a href="privacy.html">Privacy Policy</a>.</p>
+<h2>Privacy</h2>
+<p>Runlow collects no data and has no server. The app's Privacy page (Settings, General, About, Privacy) lists every address it contacts and why. See the <a href="privacy.html">Privacy Policy</a>.</p>
 
-                           <p class="muted">Independent app; not affiliated with Anthropic, OpenAI, or Google.</p>
-                           </body>
-                           </html>
-                           
+<p class="muted">Independent app; not affiliated with Anthropic, OpenAI, Google, Cursor, GitHub or OpenRouter.</p>
+</body>
+</html>
