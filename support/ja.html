@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Runlow — サポート</title>
+<style>
+body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  max-width:720px;margin:40px auto;padding:0 20px;color:#1c1c1e;background:#fff}
+h1{font-size:28px} h2{font-size:20px;margin-top:28px} a{color:#0a84ff}
+.muted{color:#6b6b70;font-size:14px}
+.langs{font-size:14px;margin-bottom:28px;color:#6b6b70}
+.langs a{margin-right:10px;white-space:nowrap}
+.langs strong{margin-right:10px;color:#1c1c1e}
+@media(prefers-color-scheme:dark){body{background:#0e0e11;color:#e8e8ea}.muted,.langs{color:#9a9aa0}.langs strong{color:#e8e8ea}}
+</style>
+</head>
+<body>
+<p class="langs"><a href="../support.html">English</a><a href="de.html">Deutsch</a><a href="fr.html">Français</a><a href="es.html">Español</a><a href="it.html">Italiano</a><a href="nl.html">Nederlands</a><a href="pt-BR.html">Português</a><strong>日本語</strong><a href="zh-Hans.html">简体中文</a><a href="ko.html">한국어</a></p>
+<h1>Runlow — サポート</h1>
+<p>Runlowは、AIの使用量があとどれだけ残っているかを表示します。Claude、Codex（ChatGPT）、Gemini CLI、Cursor、GitHub Copilot、OpenRouterの上限を読み取り、iPhoneとiPad（ダッシュボード、ロック画面のカード、Dynamic Island、ウィジェット）、Macのメニューバー、Apple Watch、Apple Vision Proにメーターとして表示します。</p>
+<p>お困りですか。不具合を見つけましたか。<a href="mailto:leonfigueira@gmail.com">leonfigueira@gmail.com</a> までメールいただくか、アプリ内の<strong>「設定」→「フィードバックを送る」</strong>をお使いください。いただいたメッセージはすべて読んでいます。</p>
+
+<h2>はじめかた</h2>
+<ul>
+  <li><strong>Claude：</strong>claude.aiのセッションキーを貼り付けます。どこからコピーするかはアプリが順を追って案内し、受け入れる前にキーを確認します。コツ：プライベートウィンドウでclaude.aiにログインし、キーをコピーしてからウィンドウを閉じてください。開いたタブが後からキーを無効にすることがなくなります。</li>
+  <li><strong>Codex（ChatGPT）、Gemini CLI、Cursor、GitHub Copilot、OpenRouter：</strong>ご自身のマシンやアカウントからトークンまたはAPIキーを貼り付けます。それぞれの場所はアプリが案内します。</li>
+  <li><strong>Macでは：</strong>CodexとGeminiはフォルダから直接読み取れます。「接続」をクリックし、<code>~/.codex</code> または <code>~/.gemini</code> へのアクセスを許可してください。</li>
+  <li><strong>まず見てみたい：</strong><em>デモモード</em>をオンにすると、サンプルデータで試せます。</li>
+  <li><strong>はじめての方へ：</strong>設定ガイドが、ロック画面のカードを一問ずつ案内します。設定からいつでも呼び出せ、「キャンセル」ですべて元に戻ります。</li>
+</ul>
+
+<h2>よくある質問</h2>
+<p><strong>メーターが読み込まれなくなりました。</strong>おそらくセッションが終了しています。キーをコピーしたブラウザでclaude.aiからログアウトしたり、Claudeの設定で「すべてのセッションからログアウト」を選んだりすると、キーも終了します。またAnthropic側でも、しばらくすると自動的に期限切れになります。その場合Runlowは「再接続」ボタン付きのバナーを表示します。新しいキーを貼り付ければ、ほかの設定はそのままです。ほかのサービスでは、トークンを貼り直してください。</p>
+<p><strong>ロック画面のカードが古いままに見えます。</strong>カード上、またはホーム画面ウィジェットの更新ボタンをタップしてください。アプリがバックグラウンドで動けるタイミングはiOSが決めるため、カードは可能なときに更新されます。ボタンを押せばその場で最新の数字を取りに行き、何も取得できなかった場合はその旨をお伝えします。</p>
+<p><strong>トークンを貼り付けたのに拒否されます。</strong>末尾に余分な空白や改行が入っていないか確認してください。1.8.5からはアプリ側で取り除きます。</p>
+<p><strong>設定は端末間で引き継がれますか。</strong>オンにすればはい。「設定」→「iCloud同期」です。ログインはご自身のiCloudキーチェーンを、色・テーマ・メーター名・ロック画面のレイアウトはご自身のiCloudを通ります。1.8.7からは使用量の履歴も引き継げるので、新しい端末や初期化した端末が、ほかの端末の記録を受け取れます。第三者を経由するものはありません。</p>
+<p><strong>Geminiのウェブ版の上限が見えないのはなぜですか。</strong>Googleがアプリに公開しているのはGemini CLI / Code Assistのクォータだけで、gemini.google.comのチャットの上限はブラウザの外からは読めません。</p>
+<p><strong>Macアプリはどこにありますか。</strong>メニューバーにいます。画面上部のゲージのアイコンを探してください。Dockにアイコンは出ません。クリックすればすべてのメーターが開き、メーターを右クリックするとメニューバー自体に並べられます。</p>
+<p><strong>アップデートで設定は変わりますか。</strong>いいえ。テーマも設定ガイドもそのほかの項目も、あなたが操作したときにだけ変わります。</p>
+
+<h2>プライバシー</h2>
+<p>Runlowはデータを収集せず、サーバーも持ちません。アプリ内のプライバシーページ（設定 → 一般 → このアプリについて → プライバシー）に、接続先のアドレスとその理由がすべて記載されています。<a href="../privacy.html">プライバシーポリシー</a>もご覧ください。</p>
+<p class="muted">独立したアプリです。Anthropic、OpenAI、Google、Cursor、GitHub、OpenRouterとの提携関係はありません。</p>
+</body>
+</html>

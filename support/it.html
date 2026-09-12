@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Runlow – Assistenza</title>
+<style>
+body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  max-width:720px;margin:40px auto;padding:0 20px;color:#1c1c1e;background:#fff}
+h1{font-size:28px} h2{font-size:20px;margin-top:28px} a{color:#0a84ff}
+.muted{color:#6b6b70;font-size:14px}
+.langs{font-size:14px;margin-bottom:28px;color:#6b6b70}
+.langs a{margin-right:10px;white-space:nowrap}
+.langs strong{margin-right:10px;color:#1c1c1e}
+@media(prefers-color-scheme:dark){body{background:#0e0e11;color:#e8e8ea}.muted,.langs{color:#9a9aa0}.langs strong{color:#e8e8ea}}
+</style>
+</head>
+<body>
+<p class="langs"><a href="../support.html">English</a><a href="de.html">Deutsch</a><a href="fr.html">Français</a><a href="es.html">Español</a><strong>Italiano</strong><a href="nl.html">Nederlands</a><a href="pt-BR.html">Português</a><a href="ja.html">日本語</a><a href="zh-Hans.html">简体中文</a><a href="ko.html">한국어</a></p>
+<h1>Runlow – Assistenza</h1>
+<p>Runlow mostra quanto ti resta del tuo utilizzo di IA. L’app legge i limiti di Claude, Codex (ChatGPT), Gemini CLI, Cursor, GitHub Copilot e OpenRouter e li mostra come indicatori su iPhone e iPad (pannello, scheda della schermata di blocco, Dynamic Island e widget), nella barra dei menu del Mac, su Apple Watch e su Apple Vision Pro.</p>
+<p>Ti serve aiuto o hai trovato un problema? Scrivi a <a href="mailto:leonfigueira@gmail.com">leonfigueira@gmail.com</a>, oppure usa <strong>Impostazioni → Invia un riscontro</strong> nell’app. Ogni messaggio viene letto.</p>
+
+<h2>Per iniziare</h2>
+<ul>
+  <li><strong>Claude:</strong> incolla la tua chiave di sessione di claude.ai. L’app ti mostra passo passo dove copiarla e la verifica prima di accettarla. Consiglio: accedi a claude.ai in una finestra privata, copia la chiave e chiudi la finestra — così nessuna scheda aperta potrà disconnetterla in seguito.</li>
+  <li><strong>Codex (ChatGPT), Gemini CLI, Cursor, GitHub Copilot, OpenRouter:</strong> incolla il token o la chiave API dal tuo computer o dal tuo account. L’app ti indica dove si trova ciascuno.</li>
+  <li><strong>Sul Mac:</strong> Codex e Gemini si leggono direttamente dalle loro cartelle. Fai clic su Collega e concedi l’accesso a <code>~/.codex</code> o <code>~/.gemini</code>.</li>
+  <li><strong>Solo un’occhiata?</strong> Attiva la <em>modalità demo</em> per esplorare con dati di esempio.</li>
+  <li><strong>Sei nuovo?</strong> La configurazione guidata ti accompagna nella scheda della schermata di blocco una domanda alla volta. Resta nelle Impostazioni quando vuoi, e Annulla rimette tutto a posto.</li>
+</ul>
+
+<h2>Domande frequenti</h2>
+<p><strong>I miei indicatori non si caricano più.</strong> Probabilmente la sessione è finita. Uscire da claude.ai nel browser da cui hai copiato la chiave, o scegliere «esci da tutte le sessioni» nelle impostazioni di Claude, chiude anche la chiave; inoltre Anthropic le fa scadere da sole dopo un po’. Runlow mostra allora un avviso con un pulsante Ricollega. Incolla una chiave nuova e tutto il resto resta com’era. Per gli altri servizi, incolla di nuovo il token.</p>
+<p><strong>La scheda sulla schermata di blocco sembra vecchia.</strong> Tocca il pulsante di aggiornamento sulla scheda, o su un widget della schermata Home. È iOS a decidere quando un’app può girare in background, quindi la scheda si aggiorna quando può; il pulsante chiede numeri freschi subito e ti dice se un aggiornamento non ha portato nulla.</p>
+<p><strong>Ho incollato un token e viene rifiutato.</strong> Controlla che alla fine non ci sia uno spazio o un a capo. Dalla 1.8.5 l’app li toglie da sola.</p>
+<p><strong>Le mie impostazioni mi seguono tra i dispositivi?</strong> Sì, se lo attivi: Impostazioni, poi Sincronizzazione iCloud. I tuoi accessi viaggiano nel tuo portachiavi iCloud; colori, temi, nomi degli indicatori e la disposizione della schermata di blocco nel tuo iCloud. Dalla 1.8.7 può viaggiare anche la cronologia di utilizzo, così un dispositivo nuovo o ripristinato riprende quello che gli altri hanno registrato. Non passa nulla da terzi.</p>
+<p><strong>Perché non vedo il limite dell’app web di Gemini?</strong> Google espone alle app solo la quota di Gemini CLI / Code Assist; il limite della chat su gemini.google.com non è leggibile fuori dal browser.</p>
+<p><strong>Dov’è l’app per Mac?</strong> Vive nella barra dei menu. Cerca l’icona dell’indicatore in cima allo schermo; non ha icona nel Dock. Un clic mostra tutti gli indicatori, e un clic destro ne mette uno nella barra dei menu stessa.</p>
+<p><strong>Aggiornare cambierà la mia configurazione?</strong> No. I temi, la configurazione guidata e ogni altra opzione cambiano qualcosa solo quando le usi.</p>
+
+<h2>Privacy</h2>
+<p>Runlow non raccoglie dati e non ha server. La pagina Privacy nell’app (Impostazioni, Generali, Info, Privacy) elenca ogni indirizzo contattato e perché. Vedi l’<a href="../privacy.html">informativa sulla privacy</a>.</p>
+<p class="muted">App indipendente; non affiliata ad Anthropic, OpenAI, Google, Cursor, GitHub o OpenRouter.</p>
+</body>
+</html>

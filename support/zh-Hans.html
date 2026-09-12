@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Runlow — 支持</title>
+<style>
+body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  max-width:720px;margin:40px auto;padding:0 20px;color:#1c1c1e;background:#fff}
+h1{font-size:28px} h2{font-size:20px;margin-top:28px} a{color:#0a84ff}
+.muted{color:#6b6b70;font-size:14px}
+.langs{font-size:14px;margin-bottom:28px;color:#6b6b70}
+.langs a{margin-right:10px;white-space:nowrap}
+.langs strong{margin-right:10px;color:#1c1c1e}
+@media(prefers-color-scheme:dark){body{background:#0e0e11;color:#e8e8ea}.muted,.langs{color:#9a9aa0}.langs strong{color:#e8e8ea}}
+</style>
+</head>
+<body>
+<p class="langs"><a href="../support.html">English</a><a href="de.html">Deutsch</a><a href="fr.html">Français</a><a href="es.html">Español</a><a href="it.html">Italiano</a><a href="nl.html">Nederlands</a><a href="pt-BR.html">Português</a><a href="ja.html">日本語</a><strong>简体中文</strong><a href="ko.html">한국어</a></p>
+<h1>Runlow — 支持</h1>
+<p>Runlow 显示你的 AI 用量还剩多少。它读取 Claude、Codex（ChatGPT）、Gemini CLI、Cursor、GitHub Copilot 和 OpenRouter 的额度，并在 iPhone 和 iPad（面板、锁屏卡片、Dynamic Island 和小组件）、Mac 菜单栏、Apple Watch 以及 Apple Vision Pro 上以用量条的形式呈现。</p>
+<p>需要帮助，或者发现了问题？请发邮件到 <a href="mailto:leonfigueira@gmail.com">leonfigueira@gmail.com</a>，或在 App 内使用<strong>「设置 → 发送反馈」</strong>。每一封都会被看到。</p>
+
+<h2>开始使用</h2>
+<ul>
+  <li><strong>Claude：</strong>粘贴你的 claude.ai 会话密钥。App 会一步步告诉你从哪里复制，并在接受之前先做校验。小技巧：在隐私窗口登录 claude.ai，复制密钥后关掉窗口，这样就不会有打开的标签页在之后把它注销。</li>
+  <li><strong>Codex（ChatGPT）、Gemini CLI、Cursor、GitHub Copilot、OpenRouter：</strong>从你自己的电脑或账户里粘贴令牌或 API 密钥。App 会告诉你每一个在哪里。</li>
+  <li><strong>在 Mac 上：</strong>Codex 和 Gemini 可以直接从各自的文件夹读取。点击「连接」并授予对 <code>~/.codex</code> 或 <code>~/.gemini</code> 的访问权限。</li>
+  <li><strong>只是看看？</strong>打开<em>演示模式</em>，用示例数据随便逛。</li>
+  <li><strong>第一次用？</strong>设置向导会一次一个问题地带你配置锁屏卡片。它随时在「设置」里，点「取消」则一切还原。</li>
+</ul>
+
+<h2>常见问题</h2>
+<p><strong>用量条不再加载了。</strong>多半是会话已经结束。在你复制密钥的那个浏览器里退出 claude.ai，或者在 Claude 的设置中选择「退出所有会话」，都会让密钥一并失效；另外 Anthropic 也会在一段时间后让它自动过期。这时 Runlow 会显示一条带「重新连接」按钮的提示。粘贴一个新密钥即可，其他设置照旧。其他服务则重新粘贴令牌。</p>
+<p><strong>锁屏卡片看起来是旧的。</strong>点一下卡片上的刷新按钮，或主屏幕小组件上的那个。App 什么时候能在后台运行由 iOS 决定，所以卡片会在允许时更新；而这个按钮会立刻去取新数据，如果这次刷新什么也没拿到，它也会告诉你。</p>
+<p><strong>我粘贴了令牌，却提示被拒绝。</strong>检查末尾是否多了空格或换行。从 1.8.5 起，App 会自己去掉它们。</p>
+<p><strong>我的设置会在设备之间同步吗？</strong>会，只要你打开它：「设置 → iCloud 同步」。登录信息通过你自己的 iCloud 钥匙串，颜色、主题、用量条名称和锁屏布局通过你自己的 iCloud。从 1.8.7 起，用量历史也能一起同步，新设备或重置过的设备可以拿回其他设备记录的内容。不会经过任何第三方。</p>
+<p><strong>为什么看不到 Gemini 网页版的额度？</strong>Google 只向 App 开放 Gemini CLI / Code Assist 的配额；gemini.google.com 的聊天额度在浏览器之外无法读取。</p>
+<p><strong>Mac App 在哪里？</strong>它在菜单栏里。看看屏幕顶部那个仪表图标；它没有 Dock 图标。点一下可以看到全部用量条，右键点按某个用量条还能把它放进菜单栏本身。</p>
+<p><strong>更新会改变我的配置吗？</strong>不会。主题、向导和其他所有选项，只有你动它们时才会改变什么。</p>
+
+<h2>隐私</h2>
+<p>Runlow 不收集数据，也没有服务器。App 内的隐私页面（设置 → 通用 → 关于 → 隐私）列出了它联系的每一个地址以及原因。另见<a href="../privacy.html">隐私政策</a>。</p>
+<p class="muted">独立 App，与 Anthropic、OpenAI、Google、Cursor、GitHub 或 OpenRouter 无从属关系。</p>
+</body>
+</html>

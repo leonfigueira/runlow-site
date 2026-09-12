@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Runlow – Ondersteuning</title>
+<style>
+body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  max-width:720px;margin:40px auto;padding:0 20px;color:#1c1c1e;background:#fff}
+h1{font-size:28px} h2{font-size:20px;margin-top:28px} a{color:#0a84ff}
+.muted{color:#6b6b70;font-size:14px}
+.langs{font-size:14px;margin-bottom:28px;color:#6b6b70}
+.langs a{margin-right:10px;white-space:nowrap}
+.langs strong{margin-right:10px;color:#1c1c1e}
+@media(prefers-color-scheme:dark){body{background:#0e0e11;color:#e8e8ea}.muted,.langs{color:#9a9aa0}.langs strong{color:#e8e8ea}}
+</style>
+</head>
+<body>
+<p class="langs"><a href="../support.html">English</a><a href="de.html">Deutsch</a><a href="fr.html">Français</a><a href="es.html">Español</a><a href="it.html">Italiano</a><strong>Nederlands</strong><a href="pt-BR.html">Português</a><a href="ja.html">日本語</a><a href="zh-Hans.html">简体中文</a><a href="ko.html">한국어</a></p>
+<h1>Runlow – Ondersteuning</h1>
+<p>Runlow laat zien hoeveel van je AI-gebruik je nog over hebt. De app leest de limieten van Claude, Codex (ChatGPT), Gemini CLI, Cursor, GitHub Copilot en OpenRouter en toont ze als meters op je iPhone en iPad (dashboard, kaart op het toegangsscherm, Dynamic Island en widgets), in de menubalk van je Mac, op de Apple Watch en op de Apple Vision Pro.</p>
+<p>Hulp nodig of een fout gevonden? Mail <a href="mailto:leonfigueira@gmail.com">leonfigueira@gmail.com</a>, of gebruik <strong>Instellingen → Stuur feedback</strong> in de app. Elk bericht wordt gelezen.</p>
+
+<h2>Aan de slag</h2>
+<ul>
+  <li><strong>Claude:</strong> plak je sessiesleutel van claude.ai. De app laat stap voor stap zien waar je hem kopieert en controleert hem voordat hij wordt geaccepteerd. Tip: log in bij claude.ai in een privévenster, kopieer de sleutel en sluit het venster — dan kan geen enkel open tabblad hem later uitloggen.</li>
+  <li><strong>Codex (ChatGPT), Gemini CLI, Cursor, GitHub Copilot, OpenRouter:</strong> plak het token of de API-sleutel van je eigen machine of account. De app laat zien waar je ze vindt.</li>
+  <li><strong>Op de Mac:</strong> Codex en Gemini kunnen rechtstreeks uit hun mappen worden gelezen. Klik op Koppel en geef toegang tot <code>~/.codex</code> of <code>~/.gemini</code>.</li>
+  <li><strong>Even kijken?</strong> Zet de <em>demomodus</em> aan en verken alles met voorbeeldgegevens.</li>
+  <li><strong>Nieuw hier?</strong> De configuratieassistent loopt de kaart op het toegangsscherm met je door, één vraag tegelijk. Hij staat altijd in Instellingen, en Annuleren zet alles terug.</li>
+</ul>
+
+<h2>Veelgestelde vragen</h2>
+<p><strong>Mijn meters laden niet meer.</strong> Waarschijnlijk is je sessie beëindigd. Uitloggen bij claude.ai in de browser waaruit je de sleutel kopieerde, of 'uitloggen op alle sessies' in de instellingen van Claude, beëindigt de sleutel ook; bovendien laat Anthropic ze na verloop van tijd vanzelf verlopen. Runlow toont dan een banner met een knop Koppel opnieuw. Plak een nieuwe sleutel en al het andere blijft zoals het was. Voor de andere diensten plak je het token opnieuw.</p>
+<p><strong>De kaart op het toegangsscherm lijkt verouderd.</strong> Tik op de verversknop op de kaart, of op een widget op het beginscherm. iOS bepaalt wanneer apps op de achtergrond mogen draaien, dus de kaart ververst wanneer het mag; de knop vraagt nu meteen om verse cijfers en zegt het als een verversing niets opleverde.</p>
+<p><strong>Ik heb een token geplakt en het wordt geweigerd.</strong> Kijk of er een spatie of regeleinde aan het eind staat. Sinds 1.8.5 haalt de app die er zelf af.</p>
+<p><strong>Reizen mijn instellingen mee tussen apparaten?</strong> Ja, als je het aanzet: Instellingen, dan iCloud-synchronisatie. Je logins reizen via je eigen iCloud-sleutelhanger; je kleuren, thema's, meternamen en de indeling van het toegangsscherm via je eigen iCloud. Sinds 1.8.7 kan ook je gebruiksgeschiedenis meereizen, zodat een nieuw of gewist apparaat oppikt wat je andere hebben vastgelegd. Er gaat niets langs derden.</p>
+<p><strong>Waarom zie ik de limiet van de Gemini-webapp niet?</strong> Google geeft apps alleen het quotum van Gemini CLI / Code Assist; de chatlimiet van gemini.google.com is buiten de browser niet leesbaar.</p>
+<p><strong>Waar is de Mac-app?</strong> Die woont in de menubalk. Zoek het metersymbool bovenaan je scherm; er is geen Dock-symbool. Eén klik toont elke meter, en met een rechtermuisklik zet je een meter in de menubalk zelf.</p>
+<p><strong>Verandert bijwerken mijn instellingen?</strong> Nee. Thema's, de assistent en elke andere optie veranderen pas iets wanneer je ze gebruikt.</p>
+
+<h2>Privacy</h2>
+<p>Runlow verzamelt geen gegevens en heeft geen server. De privacypagina in de app (Instellingen, Algemeen, Info, Privacy) noemt elk adres dat wordt benaderd en waarom. Zie het <a href="../privacy.html">privacybeleid</a>.</p>
+<p class="muted">Onafhankelijke app; niet verbonden met Anthropic, OpenAI, Google, Cursor, GitHub of OpenRouter.</p>
+</body>
+</html>

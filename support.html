@@ -5,14 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Runlow - Support</title>
 <style>
-  body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-         max-width:720px;margin:40px auto;padding:0 20px;color:#1c1c1e;background:#fff}
-           h1{font-size:28px} h2{font-size:20px;margin-top:28px} a{color:#0a84ff}
-             .muted{color:#6b6b70;font-size:14px}
-               @media(prefers-color-scheme:dark){body{background:#0e0e11;color:#e8e8ea}.muted{color:#9a9aa0}}
-               </style>
-               </head>
+body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  max-width:720px;margin:40px auto;padding:0 20px;color:#1c1c1e;background:#fff}
+h1{font-size:28px} h2{font-size:20px;margin-top:28px} a{color:#0a84ff}
+.muted{color:#6b6b70;font-size:14px}
+.langs{font-size:14px;margin-bottom:28px;color:#6b6b70}
+.langs a{margin-right:10px;white-space:nowrap}
+.langs strong{margin-right:10px;color:#1c1c1e}
+@media(prefers-color-scheme:dark){body{background:#0e0e11;color:#e8e8ea}.muted,.langs{color:#9a9aa0}.langs strong{color:#e8e8ea}}
+</style>
+</head>
 <body>
+<p class="langs"><strong>English</strong><a href="support/de.html">Deutsch</a><a href="support/fr.html">Français</a><a href="support/es.html">Español</a><a href="support/it.html">Italiano</a><a href="support/nl.html">Nederlands</a><a href="support/pt-BR.html">Português</a><a href="support/ja.html">日本語</a><a href="support/zh-Hans.html">简体中文</a><a href="support/ko.html">한국어</a></p>
 <h1>Runlow - Support</h1>
 <p>Runlow shows how much of your AI usage you have left. It reads the limits for Claude, Codex (ChatGPT), Gemini CLI, Cursor, GitHub Copilot and OpenRouter and shows them as meters on your iPhone and iPad (dashboard, Lock Screen card, Dynamic Island and widgets), in your Mac's menu bar, on Apple Watch and on Apple Vision Pro.</p>
 <p>Need help or found a bug? Email <a href="mailto:leonfigueira@gmail.com">leonfigueira@gmail.com</a>, or use <strong>Settings -&gt; Send feedback</strong> inside the app. Every message gets read.</p>
@@ -30,14 +34,13 @@
 <p><strong>My meters stopped loading.</strong> Your session probably ended. Signing out of claude.ai in the browser you copied the key from, or "log out of all sessions" in Claude's settings, ends the key too, and Anthropic expires them on their own after a while. Runlow shows a banner with a Reconnect button when that happens. Paste a fresh key and everything else stays as it was. For the other services, paste the token again.</p>
 <p><strong>The Lock Screen card looks out of date.</strong> Tap the refresh button on the card, or on a Home Screen widget. iOS decides when apps may run in the background, so the card refreshes when it can; the button asks for fresh numbers right now, and it will tell you if a refresh came back with nothing.</p>
 <p><strong>I pasted a token and it says it was rejected.</strong> Check for a stray space or line break at the end of what you pasted. From 1.8.5 the app strips those itself.</p>
-<p><strong>Do my settings follow me between devices?</strong> Yes, if you turn it on. Settings, then iCloud sync. Your sign-ins travel through your own iCloud Keychain; your colours, themes, meter names and Lock Screen layout travel through your own iCloud. Nothing goes through anyone else.</p>
+<p><strong>Do my settings follow me between devices?</strong> Yes, if you turn it on. Settings, then iCloud sync. Your sign-ins travel through your own iCloud Keychain; your colours, themes, meter names and Lock Screen layout travel through your own iCloud. From 1.8.7 your usage history can travel too, so a new or reset device picks up what your others recorded. Nothing goes through anyone else.</p>
 <p><strong>Why can't I see the Gemini web-app limit?</strong> Google only exposes the Gemini CLI / Code Assist quota to apps; the gemini.google.com chat limit isn't readable outside the browser.</p>
 <p><strong>Where's the Mac app?</strong> It lives in the menu bar. Look for the gauge icon at the top of your screen; it has no Dock icon. Click it for every meter, and right-click a meter to put it in the menu bar itself.</p>
 <p><strong>Will updating change my setup?</strong> No. Themes, the wizard and every other option only change things when you use them.</p>
 
 <h2>Privacy</h2>
 <p>Runlow collects no data and has no server. The app's Privacy page (Settings, General, About, Privacy) lists every address it contacts and why. See the <a href="privacy.html">Privacy Policy</a>.</p>
-
 <p class="muted">Independent app; not affiliated with Anthropic, OpenAI, Google, Cursor, GitHub or OpenRouter.</p>
 </body>
 </html>
