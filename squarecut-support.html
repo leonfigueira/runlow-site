@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Squarecut - Support</title>
+<style>
+body{font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+max-width:720px;margin:40px auto;padding:0 20px;color:#1c1c1e;background:#fff}
+h1{font-size:28px} h2{font-size:20px;margin-top:28px} a{color:#0a84ff}
+.muted{color:#6b6b70;font-size:14px}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:15px}
+@media(prefers-color-scheme:dark){body{background:#0e0e11;color:#e8e8ea}.muted{color:#9a9aa0}}
+</style>
+</head>
+<body>
+<h1>Squarecut - Support</h1>
+<p>Squarecut is a feet-inch-fraction calculator for iPhone and iPad. Type a measurement the way you
+write it, every length stays an exact fraction, and the answer is one you can cut to.</p>
+<p><strong>Need help, found a bug, or want a feature?</strong> Email
+<a href="mailto:leonfigueira@gmail.com">leonfigueira@gmail.com</a>, or use Send feedback in the
+app's Settings, and you will get a reply from the person who wrote it.</p>
+
+<h2>Getting started</h2>
+<ul>
+<li>Type the number, then <strong>Feet</strong> or <strong>Inch</strong>. <code>12 Feet 6 Inch</code>
+gives 12' 6".</li>
+<li>For a fraction, use the <strong>-</strong> key between the whole inches and the fraction:
+<code>3 - 1 / 2 Inch</code> gives 3-1/2". Without it, 31/2" is fifteen and a half inches, and the app
+will happily believe you.</li>
+<li><strong>mm</strong> enters millimeters. 2400 mm becomes 7' 10-1/2", marked ≈ because it does not
+land exactly on a sixteenth.</li>
+<li>Everything you finish goes on the tape. Tap any row to use that result again.</li>
+</ul>
+
+<h2>Common questions</h2>
+
+<p><strong>What does the ≈ mean?</strong> The exact answer does not fit the fraction you are
+working in. 1' divided by 7 is not a sixteenth of anything, so the app shows the nearest sixteenth
+and marks it, instead of quietly rounding. Change the fraction with the pill above the display,
+or in Settings, and every number on the tape re-renders to match.</p>
+
+<p><strong>Why does 12' times 10' come out in square feet?</strong> Because it is an area. A length
+times a length is an area, three lengths are a volume (shown with cubic yards alongside, for
+concrete), and the app will refuse to add an area to a length rather than give you a number that
+means nothing.</p>
+
+<p><strong>How does the percent key work?</strong> After plus or minus it takes a share of the
+running total: <code>468 sq ft + 10 % =</code> adds a ten percent waste factor and gives 514.8 sq ft.
+After times or divide it is a plain factor, as on any calculator.</p>
+
+<p><strong>How do I check that a slab or a deck is square?</strong> Measure the two sides and
+work out the diagonal, which needs a square root. Multiply each side by itself and press
+<strong>=</strong> for each, then add the two areas: press <strong>+</strong>, tap the first area's
+row on the tape, and press <strong>=</strong>. Now press <strong>√</strong>. For a 10' 6" by 14' 3"
+slab that gives ≈17' 8-7/16"; measure that corner to corner and the layout is square. The root of
+an area is a length, and the root of a plain number is a plain number. A length on its own has no
+square root, and the app says so rather than inventing one.</p>
+
+<p><strong>The display shows a number I did not type.</strong> You tapped a tape row, or sent a
+solver result to the calculator. That value is now the entry; press <strong>C</strong> to take it back
+without losing the sum you were in the middle of.</p>
+
+<p><strong>What is C and what is AC?</strong> The same key. It reads C while there is something to
+clear, the entry or a refused keystroke, and AC when the next press would clear the whole sum. The
+tape is never touched by either; Clear tape is separate and asks first.</p>
+
+<p><strong>Is there a subscription?</strong> No, and there never will be. The calculator, the tape,
+every unit and every fraction are free and do not expire. The four solvers, stairs, roof, board feet
+and layout, unlock together for a single payment that covers every device signed in with your Apple
+Account.</p>
+
+<p><strong>I paid but the solvers are locked.</strong> Settings, then <strong>Restore a previous
+purchase</strong>. Make sure you are signed in with the Apple Account you bought them on. Buying and
+restoring need a connection once; everything else works with no signal.</p>
+
+<p><strong>What do the solvers assume?</strong> Stairs uses the fewest risers that keep each one at
+or under your maximum, and warns when a riser or tread falls outside the usual residential limits.
+Stairs also gives the stringer line length, from the foot of the flight to the top, rise to run,
+which decides whether a 14 foot or a 16 foot 2x12 is bought; add for the plumb and level cuts at
+each end. Roof gives the rafter line length to the center of the ridge: deduct half the ridge and
+add your tail before you cut. Board feet works on nominal size, so enter 2 x 6 for a 2x6. Layout counts both
+ends and reports the short last bay.</p>
+
+<p><strong>Does it work with a keyboard on iPad?</strong> Digits, plus, minus, times, slash for a
+fraction, the apostrophe for feet, the quote mark for inches, m for millimeters, Return for equals
+Escape to clear and r for a square root. A hyphen straight after a digit is the fraction
+separator; anywhere else it subtracts.</p>
+
+<h2>Accessibility</h2>
+<p>Squarecut works with VoiceOver: measurements are read as words ("twelve feet six inches"), the
+answer is announced when you press equals, and a refused key says so. Type follows the Larger Text
+setting, and the keys stay at least 44 points tall on every iPhone. If something is hard to read or
+hard to reach, please email. That is a bug worth fixing.</p>
+
+<h2>Privacy</h2>
+<p>Squarecut collects nothing. See the <a href="squarecut-privacy.html">Squarecut privacy
+policy</a>.</p>
+
+<h2>Other apps</h2>
+<p><a href="apps.html">More from the same developer</a> - all pay-once, no subscription.</p>
+
+<p class="muted">Squarecut is made by Leon Nelio Figueira. Last updated 7 September 2026.</p>
+</body>
+</html>
