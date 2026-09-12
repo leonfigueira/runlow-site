@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-09-09T23:00:00Z",
+  "updated": "2026-09-12T11:10:00Z",
   "notices": [
     {
-      "id": "185-taking-longer",
+      "id": "185-mac-out",
       "severity": "info",
-      "title": "The next update is close",
-      "body": "1.8.5 turned into a much bigger update than I planned, mostly because of what people emailed in. Thank you to everyone who wrote. Most of this update is made of your messages. Here is what is in it.\n\nWHAT IS COMING\n• Seven themes. Colours, bar shape, background and typeface in one tap, and they reach the Lock Screen, the Dynamic Island, the widgets and the watch.\n• An Apple Watch page on your phone, with a live preview of your wrist.\n• Both Dynamic Island numbers are yours to choose. Hold the Island for as many as six meters.\n• The Lock Screen card is yours to arrange: how many meters, a bar on each or none, where the refresh button sits, and what sits on the bottom line.\n• A Privacy page listing every address the app contacts, and why.\n\nWHAT IS FIXED\n• Codex sign-in. An invisible extra line in a pasted token stopped it being sent at all, and then the app told you the token was rejected.\n• The refresh button could come back with nothing and leave the card looking unchanged, so you could not tell. It says so now.\n• Disconnect clears your credentials on your other devices too. It warns you first now.\n• Widgets ignored a switch between light and dark.\n\nON iOS 27\nThe extra room in iOS 27 turns out to be a bigger widget size rather than a bigger Lock Screen card, so that is where it is going, and it is the next thing I am building. The card gained room anyway, from a different direction: hold the Dynamic Island and it now shows as many as six meters instead of three.\n\nKeep them coming. If you are about to report something, it is worth updating first.",
-      "starts": "2026-09-09T00:00:00Z",
-      "ends": "2026-09-30T00:00:00Z",
+      "title": "1.8.5 is out on Mac and Vision Pro",
+      "body": "The Mac and Apple Vision Pro versions of 1.8.5 are on the App Store now. If your Mac has not picked it up yet, the App Store's Updates tab will have it.\n\nThe iPhone and iPad version is still with Apple, waiting on their approval. Sorry for the delay. I am hoping it is not much longer, and your devices will update on their own once it lands.\n\nWHAT IS IN IT\n• Seven themes. Colours, bar shape and typeface in one tap.\n• Setting presets. Save how you have everything set up under a name, and get it back whenever you want.\n• A setup wizard, one question at a time, on both the iPhone and the Mac.\n• Your settings travel properly between devices now. The typeface and the number colour mode were not syncing, and a Mac could go missing from the device list.\n• On the iPhone: the large widget holds up to twelve meters, and every widget has a refresh button.\n\nThank you for waiting.",
+      "starts": "2026-09-12T00:00:00Z",
+      "ends": "2026-10-05T00:00:00Z",
       "appVersions": {
         "max": "1.8.4"
       },
