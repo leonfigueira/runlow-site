@@ -14,7 +14,7 @@ h1{font-size:28px} h2{font-size:20px;margin-top:28px} a{color:#0a84ff}
 </head>
 <body>
 <h1>GainScout - Privacy Policy</h1>
-<p class="muted">Effective 21 August 2026</p>
+<p class="muted">Effective 14 September 2026</p>
 
 <p><strong>GainScout has no accounts, no analytics, no advertising and no tracking.</strong> You can
 use the whole app without telling it who you are. The few times the app does talk to a server, it is
@@ -22,8 +22,9 @@ described in full below.</p>
 
 <h2>What stays on your device</h2>
 <p>Your saved sites, statuses, notes, visit checklists, evidence photos and reports are stored on
-your device. If you turn on iCloud sync (see below) they also sync through your own iCloud. Reports
-you export as a PDF go wherever you choose to share them.</p>
+your device. While iCloud sync is on (see below) they also sync through your own iCloud. Reports
+you export as a PDF go wherever you choose to share them. If you share a land check as a link, the
+check's name, location and findings travel inside the link itself, to whoever you send it to.</p>
 
 <h2>Location, camera and photos</h2>
 <p>If you allow location access, your position is used on your device to jump the map to where you
@@ -33,14 +34,28 @@ me except as part of an iCloud sync to your own account, or a report you choose 
 
 <h2>Official data requests</h2>
 <p>A land check reads official public services live - planning.data.gov.uk (which draws together
-Natural England and other government data) and Natural England's open data - and uses Apple Maps as
-the base map. Those services receive the same standard information any map app sends: your IP address
-and the point being checked. GainScout adds nothing to identify you, and none of those requests pass
-through any server of mine. The biodiversity gain sites register is bundled inside the app, so
-looking it up sends nothing at all.</p>
+Natural England and other government data) and the open data services of Natural England and Defra -
+and uses Apple Maps for the base map, place search and the name of the spot under the pin. Those
+services receive the same standard information any map app sends: your IP address and the point being
+checked, or what you type when you search for a place. GainScout adds nothing to identify you, and
+none of those requests pass through any server of mine. Looking up the biodiversity gain sites
+register sends nothing, because a dated copy of it is kept inside the app.</p>
+
+<h2>Register updates and notices</h2>
+<p>So the app stays current without waiting for an App Store update, it downloads two public files
+from GitHub Pages, where these support pages are hosted:</p>
+<ul>
+<li><strong>A newer copy of the gain sites register</strong>, checked for at most once a day. It is
+only used if it is newer than the copy you already have.</li>
+<li><strong>Notices from me</strong>, such as a known issue or a fix on the way, checked for when the
+app opens and every few hours. You can turn these off in the Account tab, and then they are not
+downloaded at all.</li>
+</ul>
+<p>Both are plain downloads of the same file for everyone. They send nothing about you, your land or
+your sites; GitHub only sees what any web request carries, such as your IP address.</p>
 
 <h2>iCloud sync (optional)</h2>
-<p>If you switch on iCloud sync, your sites, statuses, notes, checklists, photos and reports sync
+<p>iCloud sync is on unless you turn it off. While it is on, your sites, statuses, notes, checklists, photos and reports sync
 between your own iPhone, iPad and Mac through <strong>your private iCloud</strong>, using Apple's
 CloudKit. This data lives in your Apple account, managed and secured by Apple - <strong>I cannot see
 it</strong>, and it never reaches a server of mine. You can turn sync off at any time in the app's
@@ -50,9 +65,10 @@ Account tab.</p>
 <p>Two features do send a small amount of data to a server I run (hosted on Supabase), and only when
 you choose to use them:</p>
 <ul>
-<li><strong>Sending feedback</strong> (Account &rarr; report a bug or idea) sends your message, the
-category you picked, your app version, an optional email address if you add one so I can reply, and a
-random per-install identifier. It is used only to read and answer your feedback.</li>
+<li><strong>Sending feedback</strong> (Account &rarr; Report a bug or share an idea) sends your
+message, the category you picked, your app version, your iOS or macOS version and device model (such
+as "iPhone16,2"), an optional email address if you add one so I can reply, and a random per-install
+identifier. It is used only to read and answer your feedback.</li>
 <li><strong>Redeeming a support code</strong> sends the code and that same random per-install
 identifier, so a single-use code can't be used twice. No message or contact details are sent.</li>
 </ul>
@@ -66,7 +82,7 @@ information about you from them, only anonymous sales totals.</p>
 
 <h2>Children</h2>
 <p>GainScout is a professional tool and is not directed at children. It collects no personal
-information from anyone.</p>
+information from anyone, apart from an email address you choose to add to feedback.</p>
 
 <h2>Contact</h2>
 <p>Questions, or want your feedback record removed? Email
