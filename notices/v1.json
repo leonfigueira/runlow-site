@@ -1,7 +1,24 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-09-13T02:30:00Z",
+  "updated": "2026-09-14T12:30:00Z",
   "notices": [
+    {
+      "id": "19-coming-2026-09",
+      "severity": "info",
+      "title": "The next update is with Apple now",
+      "body": "Runlow 1.9 is waiting for Apple's review for iPhone, iPad and Mac. It's a big one.\n\nWHAT IS COMING\n• Your Mac's RAM, storage and GPU in Runlow, plus which AI models are loaded in Ollama, LM Studio or Bionic. Put any of them in the menu bar, and see them on your iPhone too. It's off until you turn it on.\n• An optional warning when your Mac is running low on storage.\n• Search Settings. Type what you're after and the switch itself comes up, ready to use.\n• A Pinned page for the settings you change most.\n• Presets now keep everything, and two presets swap with one tap.\n• Choose Runlow's language in Settings, whatever your device is set to.\n• Codex, Gemini and Copilot connected from their folder on your Mac now reach your other devices.\n• Fixes for numbers in Japanese, Korean and Chinese, the credit calculator, and far less English left in other languages.\n\nThank you for waiting. It'll be on the App Store as soon as Apple approves it.",
+      "platforms": [
+        "ios",
+        "macos"
+      ],
+      "appVersions": {
+        "max": "1.8.9"
+      },
+      "starts": "2026-09-14T00:00:00Z",
+      "ends": "2026-10-05T00:00:00Z",
+      "dismissible": true,
+      "pinned": true
+    },
     {
       "id": "186-out-everywhere",
       "severity": "info",
