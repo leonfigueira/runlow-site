@@ -6,7 +6,7 @@
       "id": "gemini-easier-coming-2026-09",
       "severity": "info",
       "title": "Connecting Gemini is getting easier",
-      "body": "We know connecting Gemini isn't easy right now, and we're fixing it. The next update adds a simpler way to sign in and step-by-step instructions in the app.\n\nIf you use Antigravity: it creates a hidden .gemini folder, but that folder doesn't hold the sign-in Runlow needs, so choosing it won't connect Gemini. The update explains this where you add Gemini, too.\n\nThanks for your patience.",
+      "body": "We know connecting Gemini isn't easy right now, and we're fixing it. The next update adds a simpler way to sign in and step-by-step instructions in the app.\n\nIf you use Antigravity: it creates a hidden .gemini folder, but that folder doesn't hold the sign-in Runlow needs, so choosing it won't connect Gemini. The update explains this where you add Gemini, too.\n\nThanks for your patience. The update should be coming soon.",
       "platforms": [
         "ios",
         "macos"
