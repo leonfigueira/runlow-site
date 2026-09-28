@@ -5,8 +5,8 @@
     {
       "id": "gemini-easier-coming-2026-09",
       "severity": "info",
-      "title": "Adding Gemini is getting much easier",
-      "body": "The next update adds a Sign in with Google button for Gemini, on iPhone, iPad and Mac. Nothing to install and nothing to copy, and it stays signed in. Every provider also gets step-by-step instructions.\n\nUSE ANTIGRAVITY?\nAntigravity creates a hidden .gemini folder in your home folder, but it keeps its sign-in somewhere else. So when you choose that folder, Runlow can't find a sign-in file (oauth_creds.json) there. Only Google's Gemini CLI creates that file. Runlow shows your Gemini CLI limits, which can differ from the ones Antigravity shows.\n\nTO ADD GEMINI TODAY, ON A MAC\n• Open Terminal (press ⌘Space, type Terminal, press Return) and run: brew install gemini-cli. It needs Homebrew, from brew.sh.\n• Type gemini and press Return. Choose Login with Google, sign in with the Google account that has your Gemini plan, click Allow, then type /quit.\n• In Runlow, open Settings → Accounts & Providers and click Use the ~/.gemini folder…. Press ⌘⇧G, type ~/.gemini, press Return, and click Grant access.\n\nPlease use the folder rather than Paste token: in this version a pasted token stops working after about an hour. On iPhone or iPad, connect Gemini on your Mac with iCloud sync on and it appears there too.",
+      "title": "Connecting Gemini is getting easier",
+      "body": "We know connecting Gemini isn't easy right now, and we're fixing it. The next update adds a simpler way to sign in and step-by-step instructions in the app.\n\nIf you use Antigravity: it creates a hidden .gemini folder, but that folder doesn't hold the sign-in Runlow needs, so choosing it won't connect Gemini. The update explains this where you add Gemini, too.\n\nThanks for your patience.",
       "platforms": [
         "ios",
         "macos"
