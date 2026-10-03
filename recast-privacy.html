@@ -20,13 +20,13 @@ h1{font-size:28px} h2{font-size:20px;margin-top:32px} a{color:#0a84ff}
 app does and does not do with your information.</p>
 
 <h2>Recast 1.3 and later</h2>
-<p>Every feature is free. Recast has no adverts, accounts or analytics, and does not transmit your files or usage data to the developer. Optional tips are processed by Apple's App Store and unlock no features.</p>
+<p>Every feature is free. Recast has no adverts, accounts or app-usage analytics, and does not transmit your files or conversion activity to the developer. Optional tips are processed by Apple's App Store and unlock no features.</p>
 <p>This section describes version 1.3 and later. Advertising in older versions is explained below.</p>
 
 <h2>Your files</h2>
 <p>Every conversion and compression happens locally, using the media frameworks built into iOS. Your
 photos, videos, audio, PDFs and documents are never sent to the developer or to any third party, and
-Recast has no servers to send them to. If you choose an iCloud folder or share a result, the destination you select may transfer that file using its own services.</p>
+Recast does not upload them to a conversion server. If you choose an iCloud folder or share a result, the destination you select may transfer that file using its own services.</p>
 <p>While a conversion is running, Recast writes working copies into your device's temporary storage, and
 clears them automatically. Your recent results are kept in Recast's own storage on your device so you can
 save or share them again. They are not included in device backups, older ones are removed as new ones
@@ -44,7 +44,7 @@ using the standard iOS settings store. They are not tied to any identity and are
 the app.</p>
 
 <h2>Network connections and optional tips</h2>
-<p>Converting and compressing work offline. Recast communicates with Apple's App Store to load optional tip products, make purchases and recover unfinished transactions. Apple handles payment. Recast never receives your payment details or Apple Account details. Completed transaction identifiers are stored locally to avoid handling the same tip twice. Apple may also send purchase transaction notifications to the developer’s configured App Store notification service. These concern the purchase, not the files you convert; Apple does not provide your payment details.</p>
+<p>Converting and compressing work offline. Recast communicates with Apple's App Store to load optional tip products, make purchases and recover unfinished transactions. Apple handles payment. Recast never receives your payment details or Apple Account details. Completed transaction identifiers are stored locally to avoid handling the same tip twice. Apple sends purchase and refund notifications to the developer’s notification service. The service verifies the signed transaction and retains a sales alert containing the product, amount, currency and App Store country in the developer’s private Telegram chat. Cloudflare processes the notification and caches its notification identifier for up to 30 days to avoid duplicate alerts. Telegram retains the alert until it is deleted. The developer also receives aggregate sales and download reports from Apple. These records are used to monitor sales and refunds, not to track your conversion activity. The alerts do not contain your name, email, Apple Account, payment details, device identifier or files, and are not combined with information that identifies you.</p>
 <p>Apple's handling of purchases is covered by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
 
 <h2 id="adverts">Older versions: optional adverts</h2>
