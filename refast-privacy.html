@@ -14,15 +14,22 @@ h1{font-size:28px} h2{font-size:20px;margin-top:28px} a{color:#0a84ff}
 </head>
 <body>
 <h1>Refast - Privacy Policy</h1>
-<p class="muted">Last updated 14 September 2026.</p>
+<p class="muted">Last updated 3 October 2026.</p>
 
 <h2>The short version</h2>
-<p>Refast collects nothing. There is no account, no analytics, no advertising identifier and no
-tracking of any kind. There is no Refast server, so there is nowhere for your data to be sent.</p>
+<p>Your fasting records stay on your device and, with Refast Plus, in your own private iCloud.
+Refast has no user account, advertising identifier or tracking SDK. We do not receive your fasting
+history, notes, plans or settings. Apple sends separate purchase-event notifications to our sales
+notification service when Refast Plus is purchased or refunded.</p>
 
 <h2>What data Refast collects</h2>
-<p><strong>None.</strong> Refast does not collect, transmit or receive any personal data. Its App
-Store privacy label reads "Data Not Collected", and that is a literal description of the app.</p>
+<p>The app does not send fasting records or app interaction analytics to us. Our separate sales
+service receives Apple-signed purchase notifications. It processes the transaction in real time
+and sends a sales alert containing the app, product, event type, price, currency and App Store
+storefront to a private developer Telegram chat. The alert does not include your name, Apple
+Account, email address, payment details, device identifier or fasting records.</p>
+<p>Purchase summaries are used for sales administration. They are not linked to your identity,
+combined with other data to identify you, used for advertising or used to track you.</p>
 
 <h2>What stays on your device</h2>
 <ul>
@@ -62,25 +69,32 @@ from a widget. Siri requests are handled by Apple under Apple's privacy policy. 
 the action you asked for, such as starting a fast of a chosen length, and never your voice.</p>
 
 <h2>Purchases</h2>
-<p>Refast Plus is a single in-app purchase handled entirely by Apple. We never see your payment
-details, your Apple Account, or your name. The app only ever learns whether the purchase exists.</p>
+<p>Refast Plus is a single in-app purchase handled by Apple. The app checks Apple-verified
+transactions to unlock Plus and restore purchases. We never receive your payment card details,
+Apple Account or name. Apple also sends purchase and refund events to our sales service, as
+described above. This service is separate from the app's fasting-data storage.</p>
 
 <h2>Third parties</h2>
-<p>Refast contains no third-party SDKs, no analytics frameworks and no advertising code. No data is
-shared with anyone, because none is collected. The only third party involved at all is Apple, for
-iCloud sync, the in-app purchase and Siri.</p>
+<p>Refast contains no third-party SDKs, analytics frameworks or advertising code. Apple provides
+iCloud sync, in-app purchases and Siri. The sales notification service runs on Cloudflare Workers
+and delivers the limited purchase summaries described above through Telegram. Neither service
+receives your fasting records through Refast.</p>
 
 <h2>Data retention and deletion</h2>
-<p>Because nothing is collected, there is nothing for us to retain or delete. Everything Refast
-stores lives on your device and is under your control: delete a fast inside the app, or delete the
-app itself, and it is gone. If you used iCloud sync, you can remove that data from Settings on your
-device (your name, then iCloud, then Manage Storage).</p>
+<p>Your fasting records remain under your control on your devices and in your private iCloud.
+You can delete a fast in the app. Removing the app removes its local storage; synced data can
+remain in iCloud or on other devices until you remove it there.</p>
+<p>The sales service does not persist the full signed transaction payload in its application
+storage. It caches a notification identifier for up to 30 days to avoid duplicate alerts. Limited
+purchase summaries remain in the private sales chat until deleted. For questions or requests
+about this sales information, contact us at the address below. Because the summaries contain no
+customer identifier, we cannot reliably match a particular summary to a person.</p>
 
 <h2>Children</h2>
-<p>Refast is rated 13+ on the App Store and collects no data from anyone, including children. It
-contains no advertising and no user-generated content, and its only links out are to its own support
-page, this policy, a list of the developer's other apps and its App Store page. Fasting itself is not
-recommended for under-18s without medical advice, and the app says so on first run.</p>
+<p>Refast is rated 13+ on the App Store. It contains no advertising or public user-generated
+content, and it does not collect fasting records from anyone. The purchase-event handling above
+applies to purchases regardless of age. Fasting is not recommended for under-18s without medical
+advice, and the app says so on first run.</p>
 
 <h2>Not medical advice</h2>
 <p>Refast is a timer. It does not diagnose, treat or give advice, and nothing in it should be taken
@@ -88,8 +102,7 @@ as a recommendation to fast. If you are pregnant or breastfeeding, taking insuli
 medication, under 18, or have a history of disordered eating, please speak to a doctor first.</p>
 
 <h2>Changes</h2>
-<p>If this policy ever changes, the updated version will be posted on this page with a new date. As
-long as the app collects nothing, there is unlikely to be much to change.</p>
+<p>If this policy changes, the updated version will be posted on this page with a new date.</p>
 
 <h2>Contact</h2>
 <p>Questions about privacy, or anything else:
