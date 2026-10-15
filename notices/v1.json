@@ -1,7 +1,19 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-09-28T12:00:00Z",
+  "updated": "2026-10-15T21:45:56Z",
   "notices": [
+    {
+      "id": "false-100-after-reset-2026-10",
+      "severity": "warning",
+      "title": "A false \"100% used\" alert is being fixed",
+      "body": "Just after a limit resets, you may get a false \"100% used\" alert, or see a short spike to 100% in History, while your real figure is low. Your actual usage is not affected, and the next refresh shows the right number. This is a bug in Runlow and a fix is on its way. Until it is out you can ignore that alert. The spikes already in History will stay on the chart.",
+      "appVersions": {
+        "max": "2.2.10"
+      },
+      "starts": "2026-10-15T21:45:56Z",
+      "ends": "2026-10-29T21:45:56Z",
+      "dismissible": true
+    },
     {
       "id": "gemini-easier-coming-2026-09",
       "severity": "info",
