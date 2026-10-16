@@ -1,6 +1,12 @@
 {
   "schemaVersion": 1,
   "meters": {
-    "iguana_necktie": { "hidden": true }
+    "iguana_necktie": {
+      "hidden": true
+    },
+    "harbor_lantern": {
+      "title": "Promotional credit",
+      "shortTitle": "Promo credit"
+    }
   }
 }
