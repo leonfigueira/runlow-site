@@ -3,6 +3,18 @@
   "updated": "2026-10-15T21:45:56Z",
   "notices": [
     {
+      "id": "gemini-app-coming-2026-10",
+      "severity": "info",
+      "title": "Gemini app limits are coming to Runlow",
+      "body": "Soon Runlow can show the Gemini app's own usage limits for any Google account, including free ones, not only through Antigravity. It works through a new Runlow Safari extension on your Mac. Stay tuned.",
+      "appVersions": {
+        "max": "2.2.11"
+      },
+      "starts": "2026-10-21T16:00:00Z",
+      "ends": "2026-11-11T23:59:00Z",
+      "dismissible": true
+    },
+    {
       "id": "false-100-after-reset-2026-10",
       "severity": "warning",
       "title": "A false \"100% used\" alert is being fixed",
