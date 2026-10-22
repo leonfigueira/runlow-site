@@ -3,6 +3,21 @@
   "updated": "2026-10-15T21:45:56Z",
   "notices": [
     {
+      "id": "mac-update-waiting-on-apple-2026-10",
+      "severity": "info",
+      "title": "The Mac update is waiting on Apple",
+      "body": "Runlow for Mac is two updates behind iPhone. Everything from 2.2.11 and 2.2.12 is in one Mac update that is with Apple for review. Apple's App Store Connect is having problems right now, so I can't see when it will be approved. It will be released as soon as Apple approves it. Thanks for your patience.",
+      "appVersions": {
+        "max": "2.2.11"
+      },
+      "platforms": [
+        "macos"
+      ],
+      "starts": "2026-10-22T17:56:00Z",
+      "ends": "2026-11-12T23:59:00Z",
+      "dismissible": true
+    },
+    {
       "id": "gemini-app-coming-2026-10",
       "severity": "info",
       "title": "Gemini app limits are coming to Runlow",
