@@ -8,6 +8,7 @@
       "title": "Gemini app: fix for the 100% reading",
       "body": "If you use Gemini through Runlow's Safari extension: when Gemini blocks you at 100%, Runlow shows 1% instead. Anything below 100% shows correctly. We're aware of it and will send the fix to Apple as soon as possible.",
       "appVersions": {
+        "min": "2.2.12",
         "max": "2.2.13"
       },
       "providers": [
