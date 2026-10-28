@@ -3,6 +3,21 @@
   "updated": "2026-10-24T20:29:35Z",
   "notices": [
     {
+      "id": "gemini-app-100-shows-1-2026-10",
+      "severity": "warning",
+      "title": "Gemini app: fix for the 100% reading",
+      "body": "If you use Gemini through Runlow's Safari extension: when Gemini blocks you at 100%, Runlow shows 1% instead. Anything below 100% shows correctly. We're aware of it and will send the fix to Apple as soon as possible.",
+      "appVersions": {
+        "max": "2.2.13"
+      },
+      "providers": [
+        "geminiapp"
+      ],
+      "starts": "2026-10-28T12:16:00Z",
+      "ends": "2026-11-25T23:59:00Z",
+      "dismissible": true
+    },
+    {
       "id": "mac-update-waiting-on-apple-2026-10",
       "severity": "info",
       "title": "The Mac update is waiting on Apple",
