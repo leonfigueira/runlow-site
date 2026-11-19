@@ -1,7 +1,23 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-10-24T20:29:35Z",
+  "updated": "2026-11-19T15:02:49Z",
   "notices": [
+    {
+      "id": "save-your-look-2217-2218-2026-11",
+      "severity": "info",
+      "title": "Updates are on the way: save your look first",
+      "body": "Runlow 2.2.17 is out on iPhone and Vision Pro, and the Mac version is with Apple for review. It fixes a problem where colours, names and Lock Screen choices could reset by themselves, keeps a renewed sign-in on all your devices, and adds a CPU meter on the Mac. 2.2.18 for iPhone is with Apple next. Pace and reset time will sit together on the Lock Screen with no gap, even with live countdowns, and a look you keep for a day will be saved for you as a preset called Recently Used. Before you update, we recommend saving your current look: open Settings, then Presets, then Save current settings. If anything ever looks wrong, apply that preset to get everything back.",
+      "platforms": [
+        "ios",
+        "macos"
+      ],
+      "appVersions": {
+        "max": "2.2.17"
+      },
+      "starts": "2026-11-19T15:02:49Z",
+      "ends": "2026-12-10T23:59:00Z",
+      "dismissible": true
+    },
     {
       "id": "gemini-app-100-shows-1-2026-10",
       "severity": "warning",
